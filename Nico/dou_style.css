@@ -12,12 +12,12 @@ body { background: linear-gradient(to bottom, #000000 0%, #EAD658 100%) ; color:
 
 /*Titulos*/
 /***************************************************/
-h1 { font-family:"Arial", Times, serif; color:#111; text-align:center;}
+h1 { font-family:"Arial", Times, serif; color:orangered; }
 h2 { font-family:"Arial", Times, serif; color:#39F;}
-h3 { font-family:"New Times Roman", Times, serif; color:#39F;}
-h4 { font-family:"New Times Roman", Times, serif; color:#39F;}
-h5 { font-family:"New Times Roman", Times, serif; color:#39F;}
-h6 { font-family:"New Times Roman", Times, serif; color:#39F;}
+h3 { font-family:"New Times Roman", Times, serif; color:#333333;}
+h4 { font-family:"New Times Roman", Times, serif; color:#333333;}
+h5 { font-family:"New Times Roman", Times, serif; color:#333333;}
+h6 { font-family:"New Times Roman", Times, serif; color:#333333;}
 
 /*Parrafos*/
 /***************************************************/
