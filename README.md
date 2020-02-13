@@ -2,5 +2,5 @@
 sexico
 Jimmy: Fornicio
 Dani: Formula de la meta
-Nico: DOU
+Nico: DOU jesucisto
 Alvaro: turista gordo
