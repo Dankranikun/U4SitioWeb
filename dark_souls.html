@@ -1,30 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-    <link rel="stylesheet" href="Nico\bootstrap-grid-nico.css">>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dark Souls</title>
-    <img src="Nico\pic\dou_logo.png" alt="logo dark souls" width="95%">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 <body>
-<p><strong>Dark Souls</strong> es una saga de ROL y RPG de acción japonés en tercera persona dirigido por <a href= "https://es.wikipedia.org/wiki/Hidetaka_Miyazaki" target= "_blank">Hidetaka Miyazaki</a> (Primera y tercera entrega), desarrollado por From Sofware y distribuído por Bandai Namco.</p>
-    <p>Dark Souls es conocido por su alta dificultad, la cual realmente se ajusta a la parte del juego por donde vayamos, cuanto más al final, más duros serán los enemigos.</p>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Menú</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#Introduccion">Introducción <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Biografia">Biografía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Triunfos">Triunfos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Introduccion" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#Introduccion">Action</a>
+                <a class="dropdown-item" href="#Introduccion">Another action</a>
+                <a class="dropdown-item" href="#Introduccion">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+    
+    
+    
+      <hr>
+    
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>DARK SOULS</h1>
+            </div>
+        </div>
 
-<br>
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">Información Sobre el juego</h4>
+            <p><b>Dark Souls</b> es un <b>videojuego RPG de rol de acción</b>, dirigido por <b>Hidetaka Miyazaki</b>, desarrollado por la empresa <b>From Software</b> y distribuido por <b>Namco Bandai Games</b>. Anteriormente conocido como <i><b>Project Souls</b></i>, es el segundo videojuego de la serie Souls tras Demon's Souls. </p>
+            <hr>
+            <p class="mb-0">Su lanzamiento fue el 22 de septiembre de 2011 en Japón, 4 de octubre en Norteamérica, 6 de octubre de 2011 en Australasia y 7 de octubre de 2011 en Europa. El 24 de agosto de 2012, se lanzó la edición Prepare to Die para PC, presentando contenido adicional previamente inaccesible para los usuarios de PlayStation 3 y Xbox 360. El 23 de octubre de 2012. La versión que sacaron posteriormente para Steam (PC) incluía el DLC "Artorias The Abysswalker" bajo el nombre "<b>Dark Souls Prepare to Die Edition</b>"</p>
+        </div>
+ 
+        <hr>
+        <p>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Controles del juego
+                            </button>
+                        </h5>
+                    </div>
 
-<p>De lo que trata este juego es de salvar al reino de <b>Lodran</b> de la <b>maldición de los no muertos</b>, la cual se originó por el desesperado intento de <b>Lord Gwyn</b> por intentar aivar la llama original para salvar a su reino. Debido a su intentom el reino quedó maldito con la maldición de los no muertos. <br> Junto a él, hubo otro señor del fuego que intentó deshacer esta maldición de otra manera, la <b>bruja de Izalith</b>, quien, junto a sus 7 hijas, intentó recrear la llama original, creando el caos y transformando tanto a ella como a sus hijas en monstruos y creando el infierno lleno de demonios <i>(literalmente)</i> que es durante nuestra aventura. <br> En la saga solo conocemos solo a 4 de sus hijas, la bruja del caos <b>Quelaag</b>, la dama blanca <b>Quelaan</b>, <b>Quelana</b> de Izalith, y otra hija del caos cuyo nombre desconocemos. Estas dos últimas escaparon intactas del desaste que provocó su madre. <br> Abajo se muestran imágens de Quelaag, Quelaan, Quelana y la hija cuyo nombre no conocemos respesctivamente.<br><br> 
-   <center>
-    <img src="Nico\pic\quelaag.jpg" alt="Quelaag" width="25%"> <img src="Nico\pic\quelaan.png" alt="Quelaan" width="25%"> <img src="Nico\pic\Quelana.jpg" alt="Quelana" width="20%"> <img src="Nico\pic\Daughter.jpg" alt="Hija_sin_nombre" width="15%">
-    </center>
-<br><br> Un dato que se deconoce bastante es que la bruja tenía <b>un hijo</b> y este era <b>Descarga Incesante</b>. Este es un jefe el cual no nos ataca cuando estamos en su arena, no hasta que cogemos el set de armadura que hay al final de la arena frente al cual está el jefe mirando con tristeza el atuendo de su difunta hermana, el cual debemos coger para comenzar el truco que hay para matar a este jefe con alta resistencia y mucha salud. <br> El truco consiste en, nada mas coger el <b>conjunto con remates dorados</b> darse la vuelta, esperar a que el jefe de su primer golpe contra el suelo y volver corriendo por donde hemos venido. Al llegar a la puerta de niebla, el jefe saltará a por nosotros, quedándose colgado del borde del acantilado. Una vez se de este evento, debemos golpear el tentáculo con el que se agarró a la vida, entonces caerá y morirá, ya que justo debajo de esa zona, no hay nada mas que una caída al vacío.
-<br><br>
-<center> <img align="center" src="Nico\pic\descarga_incesante.jpg" alt="descarga_incesantee" width="55%" > </center>
-<br><br>
-</p>
-
-<p>A un lado de todo esto está Seath, que, tras traicionar a los suyos, recibió un alma de señor entregada por Gwyn, el cual también le otorgó el título de duque</p>
-
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Los controles del juego son bastante intuitivos, los gatillos derechos son para usar el arma de la mano derecha y los izquierdos para la de la izquierda. También hay un botón para utilizar ítems (X en XBox, ⬜ en Playstation, Y en Nintendo Switch y en PC varía entre la R, F y E), un botón para interactuar con el ambiente (A en XBox, X en PlayStation, B en Nintendo Switch y E o Intro en PC), un botón para evadir (B en XBox, ○ en PlayStation, A en Nintendo Switch y espacio o shift en PC)y un botón para equipar el arma de la mano derecha con ambas manos (Y en Xbox, △ en PlayStation, X en Nintendo Switch y N on Alt. en PC) (esto aumenta el daño producido pero dificulta el bloqueo). El pad analógico izquierdo controla al personaje y el derecho a la cámara. Pulsando el pad derecho se establece un objetivo cercano para facilitar la pelea. El pad direccional sirve para cambiar los objetos del inventario, las armas y los hechizos. Al usar el gatillo izquierdo, el jugador desviará el arma de algunos enemigos (<i>parry</i>), pudiendo efectuar un ataque crítico. Lo mismo pasa con las puñaladas por la espalda (<i>backstab</i>). También se puede hacer un ataque aéreo lanzándose contra un enemigo desde arriba y apretando el botón de ataque antes de la caída. Esto último ejerce enormes cantidades de daño. El botón start sirve para abrir el menú y chequear el inventario, las estadísticas, el nivel, y para salir del juego. Debido al modo multiplayer, en ningún momento del juego se puede poner pausa, salvo cuando se descansa en la hoguera. 
+                            <br> 
+                            <img src="imagenes/Victoriamagistral2.jpg" alt="Card image cap" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                            Historia principal
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        El juego tiene lugar en los últimos días de la Edad del Fuego, la cual comenzó tras la derrota de los Dragones de Piedra que anteriormente reinaban el mundo. Durante esta época el mundo era un lugar oscuro y lúgubre habitado solamente por una raza inmortal de gigantes dragones cuya capacidad de prolongar su vida eternamente provenía de sus escamas pétreas. En esta época aparentemente no existía aún ninguna llama, por lo que el mundo era un lugar completamente oscuro y casi desierto. Así fue hasta que un grupo de seres descubrieron el poder del fuego y de la luz, a través de la Primera Llama, y siendo liderados por Gwyn, el Señor de la Primera Llama acabaron con casi la totalidad de los dragones en una legendaria guerra que dio origen tras la derrota del bando reinante a la edad del fuego. Y con ella la aparición de todos los seres vivos que se ven en Dark Souls, siendo estos, a diferencia de los dragones, limitados en el tiempo por lo que ningún ser que provenga del fuego es inmortal completamente, como si lo eran los casi desaparecidos dragones. 
+                        
+                        <img src="imagenes/Modosdejuego.jpg" alt="Modo de juego" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Multijugador 
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                        El multijugador de la saga Souls es bastante sencillo, simplemente has de estar en estado humano. 
+                        Para invocar a alguien has de encontrar su marca de invocación, pulsar el botón de interacción y darle a "OK". Despu´s de unos saegundos aparecerá el jugador o NPC al que hemos invocado.
+                        Para invadir a alguien hemos de buscar el Orbe del ojo rojo/azul roto, tras encontrar una víctima, seremos teletransportados a su mundo y tendremos total libertad, ya que, a menos que use una <b>Semilla del árbol de los gigantes</b>, los enemigos y sus golpes nos ignorarán por completo, solo perderemos si se acaba el tiempo límite, si nos matan el jugador invadido o la gente que haya invocado, si nos morimos por caída o efectos como el veneno/tóxico/sangrado. 
+                        <iframe width="100%" height="650" src="https://www.youtube.com/embed/fGMzoIx7kks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>gdfgds</h1>
+                </div>
+            </div>
+    
+            <div class="alert alert-info" role="alert">
+                <h4 class="alert-heading">Comunidad</h4>
+                <p>
+                    Escribir aquí
+                </p>
+                <hr>
+                
+            </div>
+            <h2>Clases Iniciales</h2>
+            <img src="imagenes/Fortniteworldcup.jpg" alt="Modo de juego" width="100%">
+            <p>
+                Escribir aquí
+                
+            </p>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h2>Tipos de armas?</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                
 </body>
 </html>
